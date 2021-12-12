@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+}
+html {    
+    background: url('back.jpg') no-repeat center fixed;     
+    background-size: cover;
+	scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  width: 150px;
+  border: 1px solid transparent;
+}
+
+a.navitem {
+  text-decoration: none;
+}
+
+div.navitem {
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:10px;
+  width: 150px;
+  border: 2px outset white;
+  color:white;
+  background: rgba(150, 150, 150, 0.5);
+  box-shadow: 5px 5px rgba(50, 50, 50, 0.5);
+}
+.content {
+  color:white;
+  font-size:20pt;
+  position: relative;
+  display:block; 
+  bottom: 0;
+  right: 0;
+  top: 30px;
+  left: 250px;
+  margin: auto;
+  width: 75%;
+  height:100%; 
+}
+
+.pageimage {
+ width: 80%;
+ display: block;
+ padding-top:10px;
+}
