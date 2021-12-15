@@ -82,7 +82,20 @@ div.navitem {
 .fling-minislide img:nth-child(2){animation-delay:10s;}
 .fling-minislide img:nth-child(1){animation-delay:15s;}
 
-@media only screen and (min-width: 600px) {
+@media screen and (orientation: portrait){
+div.navitem {
+	font-size: 150%;
+    width: 28%;
+    margin-right: 1%;
+	float: left;
+}
+.content {
+    top: 100px;
+}
+
+}
+ 
+@media only screen and (min-width: 600px) and (orientation: landscape) {
    /* For Desktop: */
   .navbar {
     position: fixed;
